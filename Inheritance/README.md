@@ -1,20 +1,25 @@
-# Inheritance Project
+# 継承プロジェクト
 
-This project demonstrates the concept of inheritance in C++ using a playful example of ClapTrap, FragTrap, and ScavTrap classes. Each class extends the functionality of its parent, showcasing polymorphism and encapsulation.
+このプロジェクトは、C++の継承の概念を、ClapTrap、FragTrap、ScavTrapというクラスを使用しています。
+各クラスは親クラスの機能を拡張し、ポリモーフィズムとカプセル化を示しています。
 
-## Project Structure
+## プロジェクト構造
 
-- `ClapTrap.hpp` & `ClapTrap.cpp`: Base class providing fundamental attributes and methods for a trap.
-- `FragTrap.hpp` & `FragTrap.cpp`: Derived class from ClapTrap with additional capabilities like high-fives.
-- `ScavTrap.hpp` & `ScavTrap.cpp`: Another derived class from ClapTrap specialized in guarding gates.
-- `main.cpp`: The main driver code demonstrating the functionalities of different traps.
-- `Makefile`: A makefile for compiling the project.
+- `ClapTrap.hpp` & `ClapTrap.cpp`: トラップの基本的な属性とメソッドを提供する基底クラス。
+- `FragTrap.hpp` & `FragTrap.cpp`: ClapTrapから派生したクラスで、ハイファイブなどの追加機能を持っています。
+- `ScavTrap.hpp` & `ScavTrap.cpp`: ClapTrapから派生した別のクラスで、ゲートを守るのが得意です。
 
-## Building the Project
-
-Ensure you have a C++ compiler that supports C++98 standard. You can build the project using the provided Makefile:
+## makeと実行
 
 ```bash
 make
 ./Inheritance
+```
+
+## 使用方法
+
+このプロジェクトでは、継承、カプセル化、ポリモーフィズムの概念を実際にコードで見ることができます。異なるトラップクラスを使用して、様々なアクションを実行してみましょう。
+
+- `FragTrap`は、高いダメージを与える能力と、ハイファイブを行うユニークな機能を持っています。
+- `ScavTrap`は、ゲートキーパーモードでゲートを守る能力があります。
 
