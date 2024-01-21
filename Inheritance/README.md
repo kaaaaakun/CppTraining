@@ -9,7 +9,7 @@
 - `FragTrap.hpp` & `FragTrap.cpp`: ClapTrapから派生したクラスで、ハイファイブなどの追加機能を持っています。
 - `ScavTrap.hpp` & `ScavTrap.cpp`: ClapTrapから派生した別のクラスで、ゲートを守るのが得意です。
 
-## makeと実行
+## ビルドと実行
 
 ```bash
 make
